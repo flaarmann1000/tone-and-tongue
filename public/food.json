@@ -1,0 +1,22 @@
+[
+    {
+        "flavor": "sweet",
+        "food": ["Chocolate", "Honey", "Strawberries"]
+    },
+    {
+        "flavor": "salty",
+        "food": ["Salted nuts", "Pretzels", "Soy sauce"]
+    },
+    {
+        "flavor": "sour",
+        "food": ["Lemon", "Vinegar", "Yogurt"]
+    },
+    {
+        "flavor": "bitter",
+        "food": ["Coffee", "Kale", "Dark chocolate"]
+    },
+    {
+        "flavor": "umami",
+        "food": ["Mushrooms", "Tomatoes", "Parmesan cheese"]
+    }
+]

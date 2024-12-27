@@ -1,5 +1,11 @@
+
+html, body {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
 .App {
-  text-align: center;
+  text-align: center;  
 }
 
 .App-logo {
@@ -35,4 +41,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.motion-container {
+  min-height: 100vh; 
+  /* overflow: hidden; */
+  position: relative;
+  width: 100vw;
 }
