@@ -16,7 +16,13 @@ const SynthController = () => {
 
   return (
     <div>
-      <WaveAnimation analyserData={analyserData} />
+      <WaveAnimation
+        isPlaying={isPlaying}
+        pitch={pitch}
+        aggressiveness={aggressiveness}
+        vibration={arpeggioSpeed}
+        vibrationDepth={20}
+      />
       <br />
       <label>Pitch (Hz):</label>
       <input

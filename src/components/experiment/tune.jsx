@@ -38,7 +38,7 @@ function Tune({ foods, flavor }) {
           {/* <input type="range" id="volume" name="volume" min="0" max="11" /> */}
           {/* <WaveAnimation></WaveAnimation> */}
         </div>
-        <div className="col-start-5 col-span-4 text-white text-left">
+        <div className="col-start-5 col-span-4 text-white text-left mt-32">
           <SynthController></SynthController>
         </div>
         <div className="col-start-3 col-span-2 text-2xl text-black text-left ">
